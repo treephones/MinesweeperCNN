@@ -22,11 +22,11 @@ This model proved to be optimal after hours of hyperparameter tuning. It can be 
 
 ## Quantitative Results
 
-When evaluating the model, multiple performance measures were used. Accuracy was found to tell us a trivial amount of information regarding the problem. Precision ultimately was used as the main evaluation standard.
+When evaluating the model, multiple performance measures were used. Accuracy was found to tell us a trivial amount of information regarding the problem. F1 score ultimately was used as the main evaluation standard.
 
 ![](./assets/precision.png)
 
-Precision peaked at around 75%. This number tells us how many of the models predictions were correct. This makes sense and is impressive given the model was provied thousands of examples with the board mostly covered.
+F1 score peaked at around 82%. This number tells us how many of the models predictions were correct. This makes sense and is impressive given the model was provied thousands of examples with the board mostly covered.
 
 ## Qualitative Results
 
